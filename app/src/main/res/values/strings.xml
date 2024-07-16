@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SwiftyCompanion</string>
+    <string name="sign_in">Sign In With 42</string>
+</resources>
