@@ -8,7 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import
+
 //import com.example.swiftycompanion.BuildConfig
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(p0: View?) {
         when (p0?.id) {
-            R.id.sign_in_button -> { for (element in System.getenv()) Log.i("mytag", element.key) }
+            R.id.sign_in_button -> { Log.i("mytag", BuildConfig.API_UUID) }
         }
     }
 

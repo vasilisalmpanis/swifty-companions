@@ -5,6 +5,8 @@ local.properties
 # Log file
 *.log
 
+app/build.gradle.kts
+
 .env
 
 # BlueJ files
